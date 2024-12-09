@@ -1,0 +1,34 @@
+capabilities:
+  instaboot:
+    max_age: 59m
+    requests:
+    - headers:
+      - name: Accept
+        value: text/html
+      - name: Accept-Language
+        value: en-US
+      path: /
+    - headers:
+      - name: Accept
+        value: text/html
+      - name: Accept-Language
+        value: en-US
+      path: /
+    - headers:
+      - name: Accept
+        value: text/html
+      - name: Accept-Language
+        value: en-US
+      path: /
+    - headers:
+      - name: Accept
+        value: text/html
+      - name: Accept-Language
+        value: en-US
+      path: /
+kind: wasmer.io/App.v0
+name: prueba1706
+owner: cypress1
+package: .
+scaling:
+  mode: single_concurrency
